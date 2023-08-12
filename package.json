@@ -1,0 +1,38 @@
+{
+  "name": "@shopkeepjs/eslint-config-shopkeep",
+  "version": "1.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --config index.js .",
+    "find-new-rules": "eslint-find-rules -a"
+  },
+  "author": "Derek Holtzman",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint-plugin-svelte": "^2.32.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-find-rules": "^4.1.0",
+    "prettier": "^3.0.1",
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.10.0",
+    "prettier": "^3.0.1",
+    "typescript": "^4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  }
+}
