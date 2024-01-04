@@ -2,7 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 const typescriptConfig = fs.existsSync('tsconfig.json') ? path.resolve('tsconfig.json') : undefined;
-
+//test
+console.log('hi');
 module.exports = {
   env: {
     browser: true,
@@ -179,6 +180,7 @@ module.exports = {
       {
         args: 'all',
         argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
       },
     ],
     'no-use-before-define': ['error', 'nofunc'],

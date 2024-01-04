@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint --config index.js .",
-    "find-new-rules": "eslint-find-rules -a"
+    "find-new-rules": "eslint-find-rules -a",
+    "pack": "npm pack"
   },
   "author": "Derek Holtzman",
   "license": "ISC",
